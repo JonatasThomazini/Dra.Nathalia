@@ -48,6 +48,7 @@ body {
   height: 100%;
   width: 100%;
   top: 0px;
+  
   left: 0px;
   background: #000;
   opacity: 0.9; }
@@ -346,7 +347,11 @@ body {
   .about-me__text p {
     margin-bottom: 35px;
     line-height: 24px;
-    color: #c18f59; }
+    color: #c18f59; 
+    font-size: 20px;
+  
+  }
+    
     .about-me__text p span {
       font-size: 48px;
       color: #fff; }
