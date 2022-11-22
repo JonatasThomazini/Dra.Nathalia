@@ -1,381 +1,146 @@
+<!doctype html>
 
-@font-face {
-  font-family: 'Calisto-MT';
-  src: url(../fonts/Calisto-MT.ttf); }
-
-@font-face {
-  font-family: 'Calisto-MT-Italic';
-  src: url(../fonts/Calisto-MT-Italic.ttf); }
-
-@font-face {
-  font-family: 'Calisto-MT-Bold';
-  src: url(../fonts/Calisto-MT-Bold.ttf); }
-
-/* Colors */
-/* Universal style */
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Calisto-MT"; }
-
-.site-container {
-  width: 1115px;
-  margin: 0 auto; }
-  @media (max-width: 1250px) {
-    .site-container {
-      width: 90%; } }
+<html lang="pt-br">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<title>Dr.Nathalia</title>
+</head>
+<body>
 
 
-body {
-  background-color: black;
-}
+	 <!-- Libras  -->
 
-.site-navigation {
-  position: absolute;
-  top: 4.6%;
-  width: 100%;
-  z-index: 2; }
+	 <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 
-.site-navigation-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
+    <!-- Começo do  Menu  -->
 
-.main-navigation {
-  color: #fff;
-  display: none;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 0px;
-  
-  left: 0px;
-  background: #000;
-  opacity: 0.9; }
-  .main-navigation .main-navigation__ul {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 3%;
-    border: 2px solid #fff;
-    border-radius: 7px;
-    background-color: #c18f59; }
-    .main-navigation .main-navigation__ul li {
-      margin-bottom: 20px;
-      list-style: none; }
-    .main-navigation .main-navigation__ul a {
-      color: #fff;
-      font-size: 20px;
-      font-weight: 600;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: 0.3s ease; }
-      .main-navigation .main-navigation__ul a:hover {
-        color: #777; }
-  @media (max-width: 1150px) {
-    .main-navigation {
-      opacity: 0.94; } }
+	<!-- Navigation -->
+	<nav class="site-navigation">
+		<div class="site-navigation-inner site-container">
 
-/* Navigation burger */
-.burger-container {
-  cursor: pointer;
-  z-index: 3; }
+			
+			<script>
+				function myFunction(x) {
+					x.classList.toggle("change");
+				}
+			</script>
 
-.bar1, .bar2, .bar3 {
-  width: 30px;
-  height: 3px;
-  background-color: #c18f59;
-  margin: 6px 0;
-  transition: 0.4s; }
+		</div>
+	</nav>
+	<!-- Navigation end -->
 
-.change .bar1 {
-  transform: rotate(-45deg) translate(-6px, 6px);
-  background-color: #c18f59; }
+	<!-- Top banner -->
+	<section class="fh5co-top-banner">
+		<div class="top-banner__inner site-container">
+			<div class="top-banner__image">
+				<img src="images/Dr.nathalia.png" alt="author image">
+			</div>
+			<div class="top-banner__text">
+				<div class="top-banner__text-up">
+					<h2 class="top-banner__h2">Nathalia</h2>
+				</div>
+				<div class="top-banner__text-down">
+					<h2 class="top-banner__h2">Cristine</h2>
+					<span class="brand-span">Doutora Formada em Fisioterpia / Pilates </span>
+				</div>
+				<p>10 Benefícios do Pilates que você precisa saber!</p>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Top banner end -->
 
-.change .bar2 {
-  opacity: 0;
-  background-color: #c18f59; }
+	<!-- About me -->
+	<section class="fh5co-about-me">
+		<div class="about-me-inner site-container">
+			<article class="portfolio-wrapper">
+				<div class="portfolio__img">
+					<img src="images/pilates.png" class="about-me__profile" alt="about me profile picture">
+				
+				</div>
+				<div class="portfolio__bottom">
+					
+				</div>
+			</article>
+			<div class="about-me__text">
+				<div class="about-me-slider">
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">Beneficios do Pilates </h2>
+						<p>O pilates pode ser praticado por todos os públicos, adolescentes, idosos, praticantes de atividade física, atletas, pessoas com patologias (desde que liberadas pelo médico, claro) e para reabilitação. Praticar os exercícios corretamente, seguindo as orientações de um profissional, traz inúmeros benefícios à saúde física e mental. A Instrutora de Pilates Nathalia Cristine comenta sobre 10 benefícios que a atividade oferece. Confira e pratique:</p>
+						<p class="p-white">Proxima Pagina</p>
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">1) Melhora da postura corporal</h2>
+						<p>Em todos os exercícios a postura é muito importante. Ela trabalha e corrige os desalinhamentos posturais que vão melhorando a cada dia.</p>
+					
+						
+						<h2 class="universal-h2 universal-h2-bckg">2) Melhora da mobilidade nas articulações </h2>
+						<p>Através das resistências (molas e acessórios) ou movimentação, aos poucos, torna-se notável o aumento da amplitude de movimento.</p>
+						<p class="p-white">Proxima Pagina</p>
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">3) Aumenta a flexibilidade muscular</h2>
+						<p>Durante a atividade, exercícios de alongamento promovem o aumento da flexibilidade muscular.</p>
+					
+						
+						<h2 class="universal-h2 universal-h2-bckg">4) Melhora a consciência corporal </h2>
+						<p>Com a prática do Pilates, a percepção corporal aumenta. Isto porque durante as execuções é necessário pensar no movimento que será realizado para que ele seja executado com precisão.</p>
+						<p class="p-white">Proxima Pagina</p>
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">5) Melhora na capacidade de concentração e respiração</h2>
+						<p>A respiração é um dos princípios do Pilates. Sendo corretamente executada ela ajudará na coordenação de todos os movimentos.</p>
+					
+						
+						<h2 class="universal-h2 universal-h2-bckg">6) Aumenta a força e resistência muscular </h2>
+						<p>Força muscular é muito trabalhada nas aulas de Pilates. Para controlar esses movimentos, são trabalhados músculos estabilizadores que ajudarão na resistência muscular.</p>
+						<p class="p-white">Proxima Pagina</p>
+					</div>
 
-.change .bar3 {
-  transform: rotate(45deg) translate(-6px, -7px);
-  background-color: #c18f59; }
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">7) Melhora da coordenação motora</h2>
+						<p>Para uma boa execução e fluidez de movimento, a coordenação é trabalhada o tempo todo.</p>
+					
+						
+						<h2 class="universal-h2 universal-h2-bckg">8) Diminui dores no corpo </h2>
+						<p><span>O</span> corpo parado, sem atividade física gera rigidez muscular que acarreta em dores no corpo. No Pilates o corpo é trabalhado através das movimentações, o que promove uma soltura muscular deixando a rigidez muito menor e aliviando assim as dores.</p>
+						<p class="p-white">Proxima Pagina</p>
+					</div>
+					<div class="about-me-single-slide">
+						<h2 class="universal-h2 universal-h2-bckg">9) Fortalece a musculatura do assoalho pélvico</h2>
+						<p>Durante as aulas de Pilates os exercícios trabalham o fortalecimento  da musculatura do assoalho pélvico. Perceber e conhecer essa região no corpo melhora incontinência urinária e ajuda no trabalho de parto, principalmente em parto normal.</p>
+					
+						
+						<h2 class="universal-h2 universal-h2-bckg">10) Reduz o estresse </h2>
+						<p>Exercícios ritmados, músicas menos agitadas e um ambiente mais calmo, ajudam no relaxamento muscular e mental, deixando o praticante mais relaxado e tranquilo.</p>
+						<p class="p-white">FIM!</p>
+					</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="about-me-bckg"></div>
+	</section>
+	<!-- About me end -->
 
-.stop-scroll {
-  overflow: hidden; }
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/main.js"></script>
 
-/* Navigation burger end */
-.fh5co-top-banner {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  background-image: url("../images/top-banner-bckg.jpg");
-  background-position: center;
-  background-size: cover; 
-}
-
-  .fh5co-top-banner::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.9; 
-    
-  }
-
-  .fh5co-top-banner .site-container {
-    position: relative;
-    z-index: 1; }
-  @media (max-width: 1600px) {
-    .fh5co-top-banner {
-      padding-top: 180px; } }
-  @media (max-width: 1250px) {
-    .fh5co-top-banner {
-      padding-top: 130px; } }
-  @media (max-width: 520px) {
-    .fh5co-top-banner {
-      padding-top: 105px; } }
-  @media (min-width: 1600px) {
-    .fh5co-top-banner {
-      min-height: 100vh; } }
-
-.top-banner__inner {
-  display: flex;
-  
-  align-items: center; }
-  .top-banner__inner .top-banner__text {
-    margin-left: 54px; }
-    @media (max-width: 1250px) {
-      .top-banner__inner .top-banner__text {
-        width: 35%; } }
-    @media (max-width: 768px) {
-      .top-banner__inner .top-banner__text {
-        width: 50%;
-        margin-left: 20px; } }
-    @media (max-width: 520px) {
-      .top-banner__inner .top-banner__text {
-        width: 65%;
-        margin-bottom: 20px;
-        margin-left: 0; } }
-    .top-banner__inner .top-banner__text p {
-      margin-bottom: 42px;
-      color: #777; }
-      @media (max-width: 768px) {
-        .top-banner__inner .top-banner__text p {
-          margin-bottom: 25px;
-          font-size: 14px; } }
-  .top-banner__inner .top-banner__h2 {
-    font-size: 74px;
-    
-    letter-spacing: 3px;
-    color: #fff;
-    font-family: "Calisto-MT-Bold"; }
-    @media (max-width: 1250px) {
-      .top-banner__inner .top-banner__h2 {
-        font-size: 50px; } }
-    @media (max-width: 768px) {
-      .top-banner__inner .top-banner__h2 {
-        font-size: 35px; } }
-  .top-banner__inner .top-banner__text-up .top-banner__h2 {
-    margin-top: 15px; }
-    @media (max-width: 768px) {
-      .top-banner__inner .top-banner__text-up .top-banner__h2 {
-        margin-top: 0; } }
-  .top-banner__inner .top-banner__text-down {
-    margin-bottom: 20px;
-    padding-left: 27%; }
-    .top-banner__inner .top-banner__text-down .top-banner__h2 {
-      margin-bottom: 10px; }
-      @media (max-width: 768px) {
-        .top-banner__inner .top-banner__text-down .top-banner__h2 {
-          margin-bottom: 0; } }
-  .top-banner__inner .top-banner__image {
-    font-size: 0; }
-    @media (max-width: 1250px) {
-      .top-banner__inner .top-banner__image {
-        width: 50%; }
-        .top-banner__inner .top-banner__image img {
-          width: 100%; } }
-    @media (max-width: 520px) {
-      .top-banner__inner .top-banner__image {
-        width: 65%;
-        margin-bottom: 20px; } }
-  @media (max-width: 520px) {
-    .top-banner__inner {
-      flex-direction: column; } }
-
-.brand-span {
-  font-size: 14px;
-  color: #c18f59; }
-
-.brand-button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 11px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #c18f59;
-  border: 1px solid #fff;
-  transition: 0.3s ease; }
-  .brand-button:hover, .brand-button:focus {
-    color: #777; }
-
-.fh5co-about-me {
-  position: relative;
-  margin: 193px 0 199px; }
-  @media (max-width: 1250px) {
-    .fh5co-about-me {
-      margin: 150px 0; } }
-  @media (max-width: 992px) {
-    .fh5co-about-me {
-      margin: 125px 0; } }
-
-.about-me-bckg {
-  position: absolute;
-  background-image: url("../images/about-me-bckg.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 500px;
-  top: -75px;
-  right: 0;
-  height: calc(100% + 150px);
-  width: 70%;
-  z-index: -1; }
-  .about-me-bckg:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.7; }
-  @media (max-width: 992px) {
-    .about-me-bckg {
-      width: 100%;
-      padding-bottom: 15px; } }
-
-.about-me-inner {
-  display: flex;
-  justify-content: space-between; }
-  @media (max-width: 992px) {
-    .about-me-inner {
-      flex-direction: column;
-      align-items: center; } }
-
-.about-me-slider {
-  position: relative; }
-  .about-me-slider .slick-arrow {
-    position: absolute;
-    bottom: -18%; }
-  .about-me-slider .slick-prev {
-    left: 40%; }
-    @media (max-width: 520px) {
-      .about-me-slider .slick-prev {
-        left: 34%; } }
-  .about-me-slider .slick-next {
-    right: 40%; }
-    @media (max-width: 520px) {
-      .about-me-slider .slick-next {
-        right: 34%; } }
-
-.span-arrow {
-  padding: 10px 15px;
-  cursor: pointer;
-  color: #c18f59;
-  border: 1px solid #c18f59;
-  border-radius: 50%;
-  transition: 0.3s ease; }
-  .span-arrow:hover {
-    color: #fff;
-    border-color: #fff; }
-
-.portfolio-wrapper {
-  width: 400px;
-  padding: 8px;
-  text-align: center;
-   }
-  .portfolio-wrapper .portfolio__img {
-    font-size: 0; }
-    .portfolio-wrapper .portfolio__img img {
-      width: 100%; }
-  
-  .portfolio-wrapper .portfolio__name {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    margin-bottom: 23px; }
-    @media (max-width: 992px) {
-      .portfolio-wrapper .portfolio__name {
-        margin-bottom: 10px; } }
-    .portfolio-wrapper .portfolio__name span {
-      font-size: 90px;
-      line-height: 75px;
-      color: #c18f59;
-      font-family: "Calisto-MT-Bold"; }
-      @media (max-width: 992px) {
-        .portfolio-wrapper .portfolio__name span {
-          font-size: 65px;
-          line-height: 62px; } }
-  .portfolio-wrapper p {
-    padding: 0 10%;
-    line-height: 25px;
-    font-style: italic;
-    color: #777; }
-    @media (max-width: 620px) {
-      .portfolio-wrapper p {
-        font-size: 15px;
-        line-height: 20px; } }
-  @media (max-width: 992px) {
-    .portfolio-wrapper {
-      margin-bottom: 20px; } }
-  @media (max-width: 620px) {
-    .portfolio-wrapper {
-      width: 250px; } }
-
-.about-me__text {
-  width: 44%;
-  margin-right: 80px;
-  text-align: center; }
-  .about-me__text .universal-h2 {
-    color: #fff;
-    padding-bottom: 20px;
-    margin-bottom: 25px; }
-  .about-me__text p {
-    margin-bottom: 35px;
-    line-height: 24px;
-    color: #c18f59; 
-    font-size: 20px;
-  
-  }
-    
-    .about-me__text p span {
-      font-size: 48px;
-      color: #fff; }
-    @media (max-width: 620px) {
-      .about-me__text p {
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 19px; } }
-  .about-me__text h4 {
-    margin-bottom: 7px;
-    font-size: 25px;
-    color: #c18f59; }
-  .about-me__text .p-white {
-    margin-bottom: 0;
-    color: #fff; }
-  @media (max-width: 1250px) {
-    .about-me__text {
-      width: 48%;
-      margin-right: 40px; } }
-  @media (max-width: 992px) {
-    .about-me__text {
-      width: 100%;
-      margin-right: 0; } }
-
-img {
-  border-radius: 6%;
-}
+</body>
+</html>
