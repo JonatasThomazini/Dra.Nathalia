@@ -352,18 +352,18 @@ body {
   
   }
     
-    .about-me__text p span {
-      font-size: 48px;
-      color: #fff; }
+    
     @media (max-width: 620px) {
       .about-me__text p {
         margin-bottom: 20px;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 19px; } }
+
   .about-me__text h4 {
     margin-bottom: 7px;
     font-size: 25px;
     color: #c18f59; }
+    
   .about-me__text .p-white {
     margin-bottom: 0;
     color: #fff; }
